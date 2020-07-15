@@ -20,7 +20,30 @@ print ("Hello World, my name is %s and I am %s years old." %(myName, myAge))
 print ("Hello World, my name is {} and I am {} years old".format(myName, myAge))
 
 # Triple Quotes
+
 # If you need to display a long message, you can use the triple-quote
 # symbol (''' or """) to span your message over multiple lines. For instance,
 print ('''Hello World.
 My name is James and I am 20 years old.''')
+
+# Escape Characters
+# \t - tab
+print ('Hello\tWorld')
+
+# \n - newline
+print ('Hello\nWorld')
+
+# \\ (Prints the backslash character itself)
+print('\\')
+
+# \" (Prints double quote, so that the double quote does not signal the end of the string)
+print ("I am 5'9\" tall")
+
+# \' (Print single quote, so that the single quote does not signal the end of the string)
+print ('I am 5\'9" tall')
+
+# If you do not want characters preceded by the \ character to be
+# interpreted as special characters, you can use raw strings by adding an r
+# before the first quote.
+print (r'Hello\tWorld')
+
