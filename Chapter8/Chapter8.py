@@ -41,3 +41,18 @@ f = open('C:\\Users\\dev-research\\Documents\\Projects\\Applications\\Learn-Pyth
 f.write('\nThis sentence will be appended.')
 f.write('\nPython is Fun!')
 f.close()
+
+# Deleting and Renaming Files
+'''
+Two other useful functions we need to learn when working with files are
+the remove() and rename() functions. These functions are available in
+the os module and have to be imported before we can use them.
+
+The remove() function deletes a file. The syntax is
+remove(filename). For instance, to delete myfile.txt, we write
+remove(‘myfile.txt’).
+
+The rename() function renames a file. The syntax is rename (old
+name, new name). To rename oldfile.txt to newfile.txt, we
+write rename(‘oldfile.txt’, ‘newfile.txt’).
+'''
